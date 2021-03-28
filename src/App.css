@@ -1,0 +1,34 @@
+.navs{
+  height: 100px;
+  width: 100%;
+  background-color: orange;
+}
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+li{
+  text-decoration: none;
+  font-size: 25px;
+}
+.productContainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+.productContainer .link{
+  max-width: 300px;
+  box-shadow: 0 0 10px #463636;
+  margin: 10px;
+}
+body{
+  text-align: center;
+}
+.productContainer .link:hover{
+  background-color: lightgray;
+}
+.link h4{
+  margin-top: 50px;
+  font-size: 30px ;
+  font-weight: bold;
+}
